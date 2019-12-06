@@ -1,14 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="Configuration.fs" />
-    <Compile Include="WordGuesserGame.fs" />
+    <Compile Include="State.fs" />
+    <Compile Include="Randomizer.fs" />
+    <Compile Include="IO.fs" />
+    <Compile Include="GameLogic.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
-
 </Project>

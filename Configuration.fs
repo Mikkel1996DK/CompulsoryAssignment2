@@ -2,12 +2,12 @@ module Configuration
 
 let HIDDEN = '*'
 
-let CASE_SENSITIVE = true
+let CASE_SENSITIVE = false
 
-let ALLOW_BLANKS = false
+let ALLOW_BLANKS = true
 
-let HELP = false
+let HELP = true
 
 let MULTIPLE = true
 
-let WORDS = [ "aBcDeFg" ] // "BMW"; "Toyota"; "Aston Martin"; "Opel"; "Suzuki" ]
+let WORDS = [ "BMW"; "Toyota"; "Aston Martin"; "Opel"; "Suzuki" ]
