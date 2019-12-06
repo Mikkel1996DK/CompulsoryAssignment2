@@ -1,6 +1,5 @@
 ﻿open System
 open WordGuesserGame
-open Configuration
 
 [<EntryPoint>]
 let main argv =
